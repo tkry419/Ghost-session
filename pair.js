@@ -1,4 +1,4 @@
-const { Ghostid } = require('./id'); 
+const { ghostid } = require('./id'); 
 const express = require('express');
 const fs = require('fs');
 let router = express.Router();
@@ -62,7 +62,7 @@ function removeFile(FilePath) {
 
 // Router to handle pairing code generation
 router.get('/', async (req, res) => {
-    const id = malvinid(); 
+    const id = ghostid(); 
     let num = req.query.number;
 
     async function GHOST_PAIR_CODE() {
