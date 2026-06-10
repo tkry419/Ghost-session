@@ -1,12 +1,12 @@
 {
   "description": "Ghost-session",
-  "main": "./Ghost.js",
+  "main": "./ghost.js",
   "type": "commonjs",
   "engines": {
     "node": ">=20.0.0"
   },
   "scripts": {
-    "start": "pm2 start malvin.js --deep-monitoring --attach --name Ghost",
+    "start": "pm2 start ghost.js --deep-monitoring --attach --name Ghost",
     "stop": "pm2 stop Ghost",
     "restart": "pm2 restart Ghost"
   },
