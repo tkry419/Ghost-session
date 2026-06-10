@@ -1,7 +1,7 @@
 {
     "name": "Ghost-session",
     "description": "Web Session Generator",
-    "logo": "image url",
+    "logo": "https://i.ibb.co/dsp8vz8h/IMG-20260528-WA0041.jpg",
     "repository": "https://github.com/tkry419/Ghost-session",
     "keywords": ["GHOST-MD"],
     "success_url": "/", 
